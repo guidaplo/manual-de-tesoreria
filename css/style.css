@@ -1,0 +1,63 @@
+.tituloDestacado {
+    color:lightblue;
+}
+
+
+.header-index {
+
+    position: sticky;
+    top: 0px;
+    }
+
+ul,
+ol {
+    list-style: none;
+    text-decoration: none;
+}
+
+
+* {
+    padding: 0;
+    margin: 20;
+
+}
+
+header {
+    padding: 50px 8 px;
+}
+
+header nav ul {
+    display: flex;
+
+    gap: 20px;
+
+    text-decoration: none;
+}
+
+.logoportada {
+    display: flex;
+    height: 200px;
+}
+
+
+
+.contenedor {
+    background-color: rgb(90, 184, 247);
+}
+body{
+    background-color: darkblue;
+}
+
+footer{
+    margin: 0px;
+    padding: 0px;
+    background-color:darkblue
+    ;
+    
+}
+footer ol {
+    color: lightblue;
+}
+h1{
+    color:lightblue;
+}
