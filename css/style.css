@@ -42,7 +42,7 @@ header nav ul {
 
 
 .contenedor {
-    background-color: rgb(90, 184, 247);
+    background-color:darkblue;
 }
 body{
     background-color: darkblue;
@@ -60,4 +60,18 @@ footer ol {
 }
 h1{
     color:lightblue;
+    font-style: initial;
+}
+
+.titulos {
+    color: lightblue;
+}
+
+p {
+    color: lightblue;
+}
+
+.listanavegacion {
+    color: lightblue;
+    font-size: large;
 }
