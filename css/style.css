@@ -2,7 +2,9 @@
     color:lightblue;
 }
 
-
+a {
+    text-decoration: none;
+}
 .header-index {
 
     position: sticky;
@@ -51,7 +53,7 @@ body{
 footer{
     margin: 0px;
     padding: 0px;
-    background-color:darkblue
+    background-color:cyan
     ;
     
 }
