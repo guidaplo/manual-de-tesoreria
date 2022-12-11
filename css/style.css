@@ -31,7 +31,11 @@ ol {
 header {
     padding: 50px 8 px;
 }
-
+.card{
+    padding: 10px;
+    margin: 5px;
+    font-style: inherit;
+}
 
 
 
@@ -49,14 +53,21 @@ body {
 footer {
     margin: 0px;
     padding: 0px;
-    background-color: cyan;
+    background-color:#220fea;
 
 }
 
 footer ol {
-    color: darkblue;
+    color: lightblue
 }
-
+.formularios {
+    color: lightblue;
+}
+.contactofooter {
+    font-style:italic
+    ;
+    color: lightblue;
+}
 h1  {
     color: lightblue;
     font-style: initial;
@@ -75,5 +86,5 @@ h1  {
 
 
 .nav-link{
-    color: red;
+    color: lightblue;
 }
