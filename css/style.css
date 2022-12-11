@@ -1,15 +1,19 @@
 .tituloDestacado {
-    color:lightblue;
+    color: lightblue;
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none
 }
+p {
+    color: lightblue;
+}
+
 .header-index {
 
-    position: sticky;
+    
     top: 0px;
-    }
+}
 
 ul,
 ol {
@@ -28,52 +32,48 @@ header {
     padding: 50px 8 px;
 }
 
-header nav ul {
-    display: flex;
 
-    gap: 20px;
-
-    text-decoration: none;
-}
-
-.logoportada {
-    display: flex;
-    height: 200px;
-}
 
 
 
 .contenedor {
-    background-color:darkblue;
+    background-color: darkblue;
+    ;
 }
-body{
+
+
+body {
     background-color: darkblue;
 }
 
-footer{
+footer {
     margin: 0px;
     padding: 0px;
-    background-color:cyan
-    ;
+    background-color: cyan;
+
+}
+
+footer ol {
+    color: darkblue;
+}
+
+h1  {
+    color: lightblue;
+    font-style: initial;
     
 }
-footer ol {
+
+.titulos{
     color: lightblue;
-}
-h1{
-    color:lightblue;
-    font-style: initial;
+    
 }
 
-.titulos {
-    color: lightblue;
+.logosolo {
+    width: 100px;
 }
 
-p {
-    color: lightblue;
-}
 
-.listanavegacion {
-    color: lightblue;
-    font-size: large;
+
+.nav-link{
+    color: red;
 }
