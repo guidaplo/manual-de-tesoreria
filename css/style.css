@@ -1,90 +1,73 @@
-.tituloDestacado {
-    color: lightblue;
-}
-
 a {
-    text-decoration: none
-}
-p {
-    color: lightblue;
+  text-decoration: none;
 }
 
-.header-index {
-
-    
-    top: 0px;
+ul {
+  list-style: none;
+  text-decoration: none;
 }
 
-ul,
 ol {
-    list-style: none;
-    text-decoration: none;
+  list-style: none;
+  text-decoration: none;
 }
-
 
 * {
-    padding: 0;
-    margin: 20;
-
-}
-
-header {
-    padding: 50px 8 px;
-}
-.card{
-    padding: 10px;
-    margin: 5px;
-    font-style: inherit;
-}
-
-
-
-
-.contenedor {
-    background-color: darkblue;
-    ;
-}
-
-
-body {
-    background-color: darkblue;
-}
-
-footer {
-    margin: 0px;
-    padding: 0px;
-    background-color:#220fea;
-
-}
-
-footer ol {
-    color: lightblue
-}
-.formularios {
-    color: lightblue;
-}
-.contactofooter {
-    font-style:italic
-    ;
-    color: lightblue;
-}
-h1  {
-    color: lightblue;
-    font-style: initial;
-    
-}
-
-.titulos{
-    color: lightblue;
-    
+  padding: 10;
+  margin: 100;
 }
 
 .logosolo {
-    width: 100px;
+  width: 100px;
 }
 
-
-
-.nav-link{
-    color: lightblue;
+h1 {
+  color: lightblue;
+  font-style: initial;
 }
+
+.titulos {
+  color: lightblue;
+}
+
+p {
+  color: lightblue;
+}
+
+body {
+  background-color: darkblue;
+}
+
+footer {
+  margin: 0px;
+  padding: 0px;
+  background-color: #220fea;
+}
+footer ol {
+  color: lightblue;
+}
+
+.contactofooter {
+  font-style: italic;
+  color: lightblue;
+}
+
+.formularios {
+  color: lightblue;
+}
+
+header {
+  padding: 50px 8 px;
+}
+
+.nav-link {
+  color: lightblue;
+}
+
+.card {
+  padding: 10px;
+  margin: 5px;
+  font-style: inherit;
+}
+
+/*# sourceMappingURL=style.css.map */

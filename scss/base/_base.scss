@@ -1,0 +1,32 @@
+a {
+    text-decoration: none
+}
+ul {
+	list-style: none;
+	text-decoration: none;
+}
+ol {
+	list-style: none;
+	text-decoration: none;
+}
+* {
+	padding: 10;
+	margin: 100;
+}
+
+.logosolo {
+    width: 100px;
+}
+h1 {
+	color: lightblue;
+	font-style: initial;
+}
+.titulos {
+	color: lightblue;
+}
+p {
+    color: lightblue;
+}
+body {
+    background-color: $colorDos;
+}
