@@ -13,8 +13,8 @@ ol {
 }
 
 * {
-  padding: 10;
-  margin: 100;
+  padding: 3px;
+  margin: 0px;
 }
 
 .logosolo {
@@ -36,6 +36,7 @@ p {
 
 body {
   background-color: darkblue;
+  font-family: "Philosopher", sans-serif;
 }
 
 .logonombre {
@@ -52,16 +53,17 @@ footer ol {
 }
 
 .contactofooter {
-  font-style: italic;
   color: lightblue;
 }
 
 .logonombre {
   margin-left: 50px;
+  margin-bottom: 50px;
 }
 
 .formularios {
   color: lightblue;
+  margin-bottom: 50px;
 }
 
 header {
@@ -76,6 +78,11 @@ header {
   padding: 10px;
   margin: 5px;
   font-style: inherit;
+}
+
+.novedades {
+  align-items: center;
+  align-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
