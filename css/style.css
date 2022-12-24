@@ -157,18 +157,27 @@ header {
 }
 
 @keyframes cajadolar {
-  25% {
+  10% {
     left: 200px;
   }
-  50% {
+  40% {
     left: 400px;
   }
-  75% {
+  50% {
     left: 600px;
   }
-  100% {
+  70% {
     background-color: darkblue;
     left: 800px;
+  }
+  80% {
+    background-color: darkblue;
+    left: auto;
+    color: darkblue !important;
+    font-size: 50px !important;
+  }
+  100% {
+    left: 1000px;
   }
 }
 
