@@ -1,5 +1,38 @@
+.cguniversal {
+    font-size: 30px;
+}
+
 .novedades {
-    align-items: center
-    ;
-    align-content: center;
+    font-size: 40px;
+
+}
+
+.medidasdeseguiridad {
+    font-size: 20px;
+}
+
+.dolar {
+    width: 170px;
+    height: 150px;
+    background-color: $colorUno;
+    font-size: 20px;
+    color: $colorUno;
+    border-radius: 10px;
+    animation-name: cajadolar;
+    position: relative;
+    animation-duration: 10s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+@keyframes cajadolar {
+    25%{
+        left: 200px;
+    }
+    50% {left: 400px}
+
+    75% {left: 600px}
+    100% { background-color: darkblue; left: 800px}
+
 }

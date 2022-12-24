@@ -1,5 +1,7 @@
 a {
-    text-decoration: none
+    text-decoration: none;
+	color: $colorTres
+	
 }
 ul {
 	list-style: none;
@@ -8,6 +10,7 @@ ul {
 ol {
 	list-style: none;
 	text-decoration: none;
+	
 }
 * {
 	padding: 3px;
@@ -15,14 +18,20 @@ ol {
 	overflow-x: hidden;
 
 }
+hr {
+	background-color: $colorTres;
+	
+}
 
 .logosolo {
     width: 100px;
 }
-h1 {
+h1  {
 	color: lightblue;
 	font-style: initial;
 }
+h2 {color: lightblue;}
+h3{color: lightblue;}
 .titulos {
 	color: lightblue;
 }

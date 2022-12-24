@@ -1,5 +1,13 @@
-.card{
+.card {
     padding: 10px;
     margin: 5px;
     font-style: inherit;
+    background-color: $colorTres;
+    color: $colorDos;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-text {
+    color: $colorUno;
 }
