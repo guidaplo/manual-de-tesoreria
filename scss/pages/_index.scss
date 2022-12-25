@@ -13,7 +13,7 @@
 
 .dolar {
     width: 170px;
-    height: 150px;
+    height: 170px;
     background-color: $colorUno;
     font-size: 20px;
     color: $colorUno;
@@ -21,28 +21,36 @@
     animation-name: cajadolar;
     position: relative;
     animation-duration: 10s;
-    animation-timing-function:linear;
+    animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-delay: 1s;
 }
 
 @keyframes cajadolar {
-    10%{
-        left: 200px;
+    10% {
+        right: 100px;
     }
-    40% {left: 400px}
 
-    50% {left: 600px}
-    70% { background-color: darkblue; left: 800px}
-
-    80% {
-        background-color: darkblue;
-        left:auto;
-   
-        color: darkblue !important;
-        font-size: 50px !important;
-        
+    20% {
+        right: 200px;
     }
-    100% {left: 1000px;}
+
+    30% {
+        right: 300px;
+    }
+
+    40% {
+        right: 400px;
+
+        background-color: rgba(0, 0, 0, 0.077);
+    
+    }
+
+
+
+}
+
+.titulonovedades {
+    font-size: 100px;
 
 }

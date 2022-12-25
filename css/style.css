@@ -143,7 +143,7 @@ header {
 
 .dolar {
   width: 170px;
-  height: 150px;
+  height: 170px;
   background-color: #220fea;
   font-size: 20px;
   color: #220fea;
@@ -158,27 +158,21 @@ header {
 
 @keyframes cajadolar {
   10% {
-    left: 200px;
+    right: 100px;
+  }
+  20% {
+    right: 200px;
+  }
+  30% {
+    right: 300px;
   }
   40% {
-    left: 400px;
+    right: 400px;
+    background-color: rgba(0, 0, 0, 0.077);
   }
-  50% {
-    left: 600px;
-  }
-  70% {
-    background-color: darkblue;
-    left: 800px;
-  }
-  80% {
-    background-color: darkblue;
-    left: auto;
-    color: darkblue !important;
-    font-size: 50px !important;
-  }
-  100% {
-    left: 1000px;
-  }
+}
+.titulonovedades {
+  font-size: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */
