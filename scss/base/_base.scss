@@ -1,51 +1,67 @@
 a {
-    text-decoration: none;
+	text-decoration: none;
 	color: $colorTres
-	
 }
+
+
 ul {
 	list-style: none;
 	text-decoration: none;
 }
+
 ol {
 	list-style: none;
 	text-decoration: none;
-	
+
 }
+
 * {
 	padding: 3px;
 	margin: 0px;
 	overflow-x: hidden;
 
 }
+
 hr {
 	background-color: $colorTres;
-	
+
 }
 
+
 .logosolo {
-    width: 100px;
+	width: 100px;
 }
-h1  {
+
+h1 {
 	color: lightblue;
 	font-style: initial;
 }
-h2 {color: lightblue;}
-h3{color: lightblue;}
+
+h2 {
+	color: lightblue;
+}
+
+h3 {
+	color: lightblue;
+}
+
 .titulos {
 	color: lightblue;
 }
+
 p {
-    color: lightblue;
+	color: lightblue;
 }
+
 body {
-    background-color: $colorDos;
+	background-color: $colorDos;
 	font-family: 'Philosopher', sans-serif;
 }
 
 .logonombre {
 	width: 250px;
 }
+
 .listapase {
 	color: lightblue;
 }
