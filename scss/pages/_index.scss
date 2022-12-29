@@ -13,64 +13,93 @@
 .medidasdeseguiridad {
     font-size: 20px;
 }
+@media (min-width:300px) {
 
-@media (min-width: 500px) {
-.dolar {
-    width: 200px;
-    height: 170px;
-    background-color: $colorUno;
-    font-size: 20px;
-    color: $colorUno;
-    border-radius: 10px;
-    animation-name: cajadolar;
-    position: relative;
-    animation-duration: 10s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-delay: 1s;
+    .dolar {
+        width: 200px;
+        height: 170px;
+        background-color: $colorUno;
+        font-size: 20px;
+        color: $colorUno;
+        border-radius: 10px;
+        animation-name: cajadolarmovil;
+        position: relative;
+        animation-duration: 10s;
+        animation-timing-function:ease ;
+        animation-iteration-count: infinite;
+        animation-delay: 1s;
+    }
 }
-
-
-}
-
+@keyframes cajadolarmovil {
+    10% {
+        right: 10px;
+    }
     
+    40% { right: 15px;}
+}
+
+@media (min-width: 600px) {
+    .dolar {
+        width: 200px;
+        height: 170px;
+        background-color: $colorUno;
+        font-size: 20px;
+        color: $colorUno;
+        border-radius: 10px;
+        animation-name: cajadolar;
+        position: relative;
+        animation-duration: 10s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-delay: 1s;
+    }
+
+
+}
+
+
 
 
 @keyframes cajadolar {
     10% {
-        right: 100px;
+        right: 50px;
     }
 
     20% {
-        right: 200px;
+        right: 100px;
     }
 
     30% {
-        right: 300px;
+        right: 150px;
     }
 
     40% {
-        right: 400px;
+        right: 200px;
 
         background-color: rgba(0, 0, 0, 0.077);
 
-       
-        }
-    }
-        
-        
 
- 
+    }
+}
+
+
 
 
 
 .titulonovedades {
     font-size: 100px;
 
-   
+
 }
-    @media (max-width: 500px) 
-    {
-        .titulonovedades {font-size: 30px;
-        }
+
+@media (max-width: 800px) {
+    .titulonovedades {
+        font-size: 50px;
     }
+}
+
+@media (max-width: 480px) {
+    .titulonovedades {
+        font-size: 30px;
+    }
+}
