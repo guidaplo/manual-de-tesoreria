@@ -13,6 +13,7 @@
 .medidasdeseguiridad {
     font-size: 20px;
 }
+
 @media (min-width:300px) {
 
     .dolar {
@@ -25,17 +26,20 @@
         animation-name: cajadolarmovil;
         position: relative;
         animation-duration: 10s;
-        animation-timing-function:ease ;
+        animation-timing-function: ease;
         animation-iteration-count: infinite;
         animation-delay: 1s;
     }
 }
+
 @keyframes cajadolarmovil {
     10% {
         right: 10px;
     }
-    
-    40% { right: 15px;}
+
+    40% {
+        right: 15px;
+    }
 }
 
 @media (min-width: 600px) {
